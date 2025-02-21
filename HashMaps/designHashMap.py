@@ -39,16 +39,17 @@
 class MyHashMap:
 
     def __init__(self):
-        return 0
+        self.hashMap = {}
        
 
     def put(self, key, value):
-        return 0
+       self.hashMap[key] = value
        
 
     def get(self, key):
-        return 0
-        
+        return self.hashMap.get(key, -1)
+  
 
     def remove(self, key):
-        return 0
+        if key in self.hashMap:
+            del self.hashMap[key]
