@@ -31,7 +31,7 @@
 # Constraints:
 
 #     0 <= key, value <= 10^6
-#     At most 10^4 calls will be made to put, get, and remove.
+#     At most 10^4 calls will be made to put, get, and remove
 
 
 
