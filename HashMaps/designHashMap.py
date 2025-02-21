@@ -31,7 +31,7 @@
 # Constraints:
 
 #     0 <= key, value <= 10^6
-#     At most 10^4 calls will be made to put, get, and remove
+#     At most 10^4 calls will be made to put, get, and remove.
 
 
 
@@ -39,17 +39,16 @@
 class MyHashMap:
 
     def __init__(self):
-        self.hashMap = {}
+        return 0
        
 
     def put(self, key, value):
-       self.hashMap[key] = value
+        return 0
        
 
     def get(self, key):
-        return self.hashMap.get(key, -1)
-  
+        return 0
+        
 
     def remove(self, key):
-        if key in self.hashMap:
-            del self.hashMap[key]
+        return 0
